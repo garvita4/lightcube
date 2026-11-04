@@ -5,6 +5,7 @@
 An **8×8×8 (512 LED)** volumetric LED cube driven by an ESP32, nine 74HC595 shift registers, and TIP127 Darlington drivers.  
 Features hierarchical KiCad schematics, full mechanical CAD, and an I2S digital microphone for audio-reactive effects.
 
+
 ---
 
 ## Features & Hardware Design
@@ -123,19 +124,11 @@ This classic layer-by-layer scan keeps pin count and current requirements manage
 
 ## Firmware Status
 
-Firmware is currently under development.  
+Firmware is vibecoded rn.. 
 The hardware is designed for straightforward SPI-driven multiplexing + I2S audio input, so existing open-source 8×8×8 LED cube firmware can be adapted relatively easily.
 
 ---
 
-## Project Status
 
-- [x] Full hierarchical schematics
-- [x] Mechanical CAD (STL files)
-- [ ] PCB layout
-- [ ] Firmware
-- [ ] First physical prototype
-
----
 
 
